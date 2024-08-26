@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_unit_pricing_unit_pricings",
+  "info": {
+    "displayName": "Unit Pricing",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "BHK": {
+      "type": "string"
+    },
+    "Size": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "string"
+    }
+  }
+}

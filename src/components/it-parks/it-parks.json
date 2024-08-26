@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_it_parks_it_parks",
+  "info": {
+    "displayName": "IT-PARKS"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

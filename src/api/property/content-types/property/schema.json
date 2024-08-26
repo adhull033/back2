@@ -1,0 +1,170 @@
+{
+  "kind": "collectionType",
+  "collectionName": "properties",
+  "info": {
+    "singularName": "property",
+    "pluralName": "properties",
+    "displayName": "Property",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "text",
+      "required": true
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Independent Villa",
+        "Residential Apartment",
+        "Plot",
+        "Independent House",
+        "Luxury Villa"
+      ]
+    },
+    "location_city": {
+      "type": "string",
+      "required": true
+    },
+    "locality": {
+      "type": "string"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "Ready to move",
+        "Under Construction",
+        "Unfurnished",
+        "Semi-Furnished",
+        "Furnished",
+        "Luxury Villa"
+      ]
+    },
+    "amenities": {
+      "type": "component",
+      "repeatable": true,
+      "component": "amenities.amenities"
+    },
+    "features": {
+      "displayName": "features",
+      "type": "component",
+      "repeatable": true,
+      "component": "features.features"
+    },
+    "sqft": {
+      "type": "integer"
+    },
+    "bhk": {
+      "type": "integer",
+      "required": true
+    },
+    "facing": {
+      "type": "enumeration",
+      "enum": [
+        "North",
+        "East",
+        "South",
+        "West",
+        "North-East",
+        "North-West",
+        "South-East",
+        "South-West"
+      ]
+    },
+    "other": {
+      "type": "richtext"
+    },
+    "brand_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "property_details": {
+      "displayName": "property_details",
+      "type": "component",
+      "repeatable": true,
+      "component": "property-details.property-details"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "map": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "price": {
+      "type": "string",
+      "required": true
+    },
+    "seo_description": {
+      "type": "text",
+      "maxLength": 160
+    },
+    "seo_keywords": {
+      "type": "text",
+      "maxLength": 110
+    },
+    "Pricing": {
+      "displayName": "Unit Pricing",
+      "type": "component",
+      "repeatable": true,
+      "component": "unit-pricing.unit-pricing"
+    },
+    "Nearby": {
+      "displayName": "Nearby Location",
+      "type": "component",
+      "repeatable": false,
+      "component": "nearby.nearby-location"
+    },
+    "Project": {
+      "displayName": "Project Overview",
+      "type": "component",
+      "repeatable": false,
+      "component": "project-overview.project-overview"
+    }
+  }
+}

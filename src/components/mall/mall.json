@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_mall_malls",
+  "info": {
+    "displayName": "mall"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

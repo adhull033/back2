@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_features_features",
+  "info": {
+    "displayName": "features",
+    "icon": "book-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bedroom": {
+      "type": "integer"
+    },
+    "bathroom": {
+      "type": "integer"
+    },
+    "swimming_pool": {
+      "type": "integer"
+    }
+  }
+}

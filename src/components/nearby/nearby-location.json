@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_nearby_nearby_locations",
+  "info": {
+    "displayName": "Nearby Location",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Educational": {
+      "displayName": "Education",
+      "type": "component",
+      "repeatable": true,
+      "component": "education.education"
+    },
+    "CONNECTIVITY": {
+      "displayName": "connectivity",
+      "type": "component",
+      "repeatable": true,
+      "component": "connectivity.connectivity"
+    },
+    "HOSPITAL": {
+      "displayName": "HOSPITAL",
+      "type": "component",
+      "repeatable": true,
+      "component": "hospital.hospital"
+    },
+    "Mall": {
+      "displayName": "mall",
+      "type": "component",
+      "repeatable": true,
+      "component": "mall.mall"
+    },
+    "ITPARKS": {
+      "displayName": "IT-PARKS",
+      "type": "component",
+      "repeatable": true,
+      "component": "it-parks.it-parks"
+    }
+  }
+}

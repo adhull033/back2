@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_project_overview_project_overviews",
+  "info": {
+    "displayName": "Project Overview",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Type": {
+      "type": "string"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "Land_Parcel": {
+      "type": "string"
+    },
+    "Structure": {
+      "type": "text"
+    },
+    "No_of_Units": {
+      "type": "text"
+    },
+    "Unit_Variants": {
+      "type": "text"
+    },
+    "Size_Range": {
+      "type": "string"
+    },
+    "Price_Range": {
+      "type": "string"
+    },
+    "Possession_Date": {
+      "type": "string"
+    },
+    "RERA_No": {
+      "type": "string"
+    }
+  }
+}

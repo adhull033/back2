@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_amenities_amenities",
+  "info": {
+    "displayName": "Amenities",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_connectivity_connectivities",
+  "info": {
+    "displayName": "connectivity"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

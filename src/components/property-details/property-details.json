@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_property_details_property_details",
+  "info": {
+    "displayName": "property_details",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "attribute": {
+      "type": "string"
+    },
+    "value": {
+      "type": "text"
+    }
+  }
+}

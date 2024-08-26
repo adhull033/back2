@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_review_reviews",
+  "info": {
+    "displayName": "Review",
+    "icon": "angry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Pic": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Review": {
+      "type": "richtext",
+      "required": true,
+      "maxLength": 200
+    },
+    "rating": {
+      "type": "enumeration",
+      "enum": [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five"
+      ]
+    }
+  }
+}
